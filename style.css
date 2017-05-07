@@ -1,0 +1,76 @@
+
+/* base */
+body {
+    margin: 0;
+    background: orange;
+}
+
+/* navigation */
+nav {
+    background: blue;
+}
+
+nav a {
+    float: left;
+    width: 25%;
+    padding: 14px 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* header */
+header {
+    height: 100px;
+    background: green;
+}
+
+/* main */
+main {
+    background: white;
+}
+
+aside.sidebar {
+    height: 500px;
+    width: 263px;
+    background: purple;
+}
+
+aside.sidebar.col-left {
+    position: static;
+    float: left;
+}
+
+aside.sidebar.col-left-fixed {
+    float: none;
+    position: fixed;
+    top: 1em;
+}
+
+article {
+    float: right;
+    height: 1200px;
+    width: 72%;
+    background: gray;
+}
+
+/* footer */
+footer {
+    height: 100px;
+    background: orange;
+}
+
+/* utility */
+.content-wrap {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    background: brown;
+}
+
+/*.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
