@@ -57,7 +57,7 @@ article {
 /* footer */
 footer {
     height: 100px;
-    background: orange;
+    background: brown;
 }
 
 /* utility */
@@ -66,7 +66,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
-    background: brown;
+    background: sandybrown;
 }
 
 /*.clearfix:after {
