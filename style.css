@@ -41,12 +41,6 @@ aside.sidebar.col-left {
     float: left;
 }
 
-aside.sidebar.col-left-fixed {
-    float: none;
-    position: fixed;
-    top: 1em;
-}
-
 article {
     float: right;
     height: 1200px;
@@ -69,8 +63,8 @@ footer {
     background: sandybrown;
 }
 
-/*.clearfix:after {
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
-}*/
+}
