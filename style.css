@@ -2,7 +2,7 @@
 /* base */
 body {
     margin: 0;
-    background: orange;
+    background: brown;
 }
 
 /* navigation */
@@ -21,7 +21,6 @@ nav a {
 
 /* header */
 header {
-    height: 100px;
     background: green;
 }
 
@@ -36,10 +35,7 @@ aside.sidebar {
     background: purple;
 }
 
-aside.sidebar.col-left {
-    position: static;
-    float: left;
-}
+
 
 aside.sidebar.col-left-fixed {
     float: none;
@@ -47,16 +43,28 @@ aside.sidebar.col-left-fixed {
     top: 1em;
 }
 
+aside.sidebar a {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    background: darkblue;
+}
+
 article {
     float: right;
-    height: 1200px;
     width: 72%;
     background: gray;
+}
+
+section#project-overview .col-left, section#project-overview .col-right{
+    width: 48%;
 }
 
 /* footer */
 footer {
     height: 100px;
+    text-align: center;
     background: brown;
 }
 
@@ -73,4 +81,14 @@ footer {
     content: "";
     display: table;
     clear: both;
+}
+
+.col-left {
+    position: static;
+    float: left;
+}
+
+.col-right {
+    position: static;
+    float: right;
 }
