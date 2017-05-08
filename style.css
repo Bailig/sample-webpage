@@ -2,12 +2,21 @@
 /* base */
 body {
     margin: 0;
-    background: brown;
+    font-family: 'Open Sans', sans-serif;
+    background: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arvo', serif;
+}
+
+h2 {
+    padding-top: 1em;
 }
 
 /* navigation */
 nav {
-    background: blue;
+    background: rgba(0,0,0,0.8);
 }
 
 nav a {
@@ -21,40 +30,42 @@ nav a {
 
 /* header */
 header {
-    background: green;
+    padding: 3em;
+    background-image: url("header-background.png");
+    background-size: cover;
 }
 
 /* main */
 main {
     background: white;
+    padding: 3em;
 }
 
 aside.sidebar {
+    margin-top: 2em;
     height: 500px;
     width: 263px;
-    background: purple;
+    background: #f2f2f2;
 }
-
-
 
 aside.sidebar.col-left-fixed {
     float: none;
     position: fixed;
-    top: 1em;
+    top: 0;
 }
 
 aside.sidebar a {
     display: block;
     padding: 14px 20px;
     text-decoration: none;
-    color: white;
-    background: darkblue;
+    color: #000;
 }
-
+aside.sidebar a:hover, nav a:hover {
+    color: darkgray;
+}
 article {
     float: right;
-    width: 72%;
-    background: gray;
+    width: 65%;
 }
 
 section#project-overview .col-left, section#project-overview .col-right{
@@ -64,8 +75,9 @@ section#project-overview .col-left, section#project-overview .col-right{
 /* footer */
 footer {
     height: 100px;
+    padding-top: 2em;
     text-align: center;
-    background: brown;
+    background: #f2f2f2;
 }
 
 /* utility */
@@ -74,7 +86,6 @@ footer {
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
-    background: sandybrown;
 }
 
 .clearfix:after {
