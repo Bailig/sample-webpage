@@ -28,6 +28,10 @@ nav a {
     color: white;
 }
 
+nav a:hover, nav a.active {
+    color: darkgray;
+}
+
 /* header */
 header {
     padding: 3em;
@@ -63,7 +67,7 @@ aside.sidebar a {
     text-decoration: none;
     color: #000;
 }
-aside.sidebar a:hover, nav a:hover {
+aside.sidebar a:hover {
     color: darkgray;
 }
 article {
