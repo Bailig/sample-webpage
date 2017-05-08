@@ -8,15 +8,7 @@ body {
 /* navigation */
 nav {
     background: blue;
-}
-
-nav a {
-    float: left;
-    width: 25%;
-    padding: 14px 0;
-    text-align: center;
-    text-decoration: none;
-    color: white;
+    height: 46px;
 }
 
 /* header */
