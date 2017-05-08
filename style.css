@@ -32,13 +32,16 @@ nav a {
 header {
     padding: 3em;
     background-image: url("header-background.png");
+    background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* main */
 main {
     background: white;
     padding: 3em;
+    padding-bottom: 4em;
 }
 
 aside.sidebar {
