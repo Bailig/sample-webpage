@@ -6,11 +6,11 @@ body {
 }
 
 /* navigation */
-nav {
+.navbar {
     background: blue;
 }
 
-nav a {
+.navbar a {
     float: left;
     width: 25%;
     padding: 14px 0;
@@ -30,18 +30,18 @@ main {
     background: white;
 }
 
-aside.sidebar {
+aside {
     height: 500px;
     width: 263px;
     background: purple;
 }
 
-aside.sidebar.col-left {
+aside.col-left {
     position: static;
     float: left;
 }
 
-aside.sidebar.col-left-fixed {
+aside.col-left-fixed {
     float: none;
     position: fixed;
     top: 1em;
