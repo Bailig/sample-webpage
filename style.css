@@ -6,7 +6,7 @@ body {
 }
 
 /* navigation */
-nav {
+.navbar {
     background: blue;
     height: 46px;
 }
@@ -22,13 +22,13 @@ main {
     background: white;
 }
 
-aside.sidebar {
+aside {
     height: 500px;
     width: 263px;
     background: purple;
 }
 
-aside.sidebar.col-left {
+aside.col-left {
     position: static;
     float: left;
 }
