@@ -10,9 +10,9 @@ function spyScrollAndToggleSidebarFix() {
     $(window).on("scroll", function() {
         console.log(this.scrollY);
         if (this.scrollY > 340) {
-            $(".sidebar").removeClass("col-left").addClass("col-left-fixed");
+            $("aside").removeClass("col-left").addClass("col-left-fixed");
         } else {
-            $(".sidebar").removeClass("col-left-fixed").addClass("col-left");
+            $("aside").removeClass("col-left-fixed").addClass("col-left");
         }
     });
 }
